@@ -1,0 +1,105 @@
+body {
+  background-color: #1b3764;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: center; */
+}
+nav .right {
+  font-size: 17px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  font-family: "Inter";
+  font-weight: 500;
+  padding-top: 40px;
+}
+nav .right p {
+  display: flex;
+  align-content: center;
+  padding: 0px 21px;
+}
+nav > div.right > img.Icon {
+  padding-left: 30px;
+}
+nav .left {
+  /* padding-right: 251px; */
+  padding-top: 42.5px;
+  display: flex;
+}
+nav > div.left > img.logo {
+  padding-right: 28px;
+}
+nav .left img {
+  padding: 0px 5px;
+}
+div.container {
+  display: flex;
+  justify-content: space-between;
+}
+div.icons {
+  padding-top: 49px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
+.icons img.button1 {
+  padding: 19px;
+}
+.icons img {
+  padding-right: 37px;
+}
+div.top {
+  color: white;
+}
+div.top > p {
+  font-family: "cardo";
+  font-weight: 400;
+  font-size: 24px;
+  display: flex;
+  align-content: center;
+}
+div.top > p > img {
+  padding: 18px 15px 18px 0px;
+}
+div.top > h1 {
+  font-family: "cardo";
+  font-weight: 700;
+  font-size: 65px;
+}
+div.top > span {
+  color: #b4c7e7;
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 19px;
+}
+div.top {
+  padding-top: 239px;
+}
+div.container > div.right {
+  padding-top: 95px;
+}
+div.bottom > div.bottomList {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-top: 49px;
+}
+li {
+  color: #b4c7e7;
+  display: flex;
+  flex-direction: column;
+}
+li > span {
+  color: white;
+  font-size: 24px;
+}
+li > span > span {
+  padding-left: 13px;
+}
+li > p {
+  margin-top: 3px;
+  padding-left: 29px;
+}
